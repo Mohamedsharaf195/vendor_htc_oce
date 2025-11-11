@@ -21,13 +21,13 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/customize/MNSprop/311180.prop:system/customize/MNSprop/311180.prop \
     vendor/htc/oce/proprietary/customize/MNSprop/default.prop:system/customize/MNSprop/default.prop \
     vendor/htc/oce/proprietary/customize/mns_map.xml:system/customize/mns_map.xml \
-    vendor/htc/oce/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-    vendor/htc/oce/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/htc/oce/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/htc/oce/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/htc/oce/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/htc/oce/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/htc/oce/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/etc/General_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/etc/Global_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:system/etc/Handset_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/etc/Headset_cal.acdb \
+    vendor/htc/oce/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
     vendor/htc/oce/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/htc/oce/proprietary/etc/camera/imx351_htc_chromatix.xml:system/etc/camera/imx351_htc_chromatix.xml \
     vendor/htc/oce/proprietary/etc/camera/ov12890_htc_chromatix.xml:system/etc/camera/ov12890_htc_chromatix.xml \
@@ -36,9 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/htc/oce/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/htc/oce/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/htc/oce/proprietary/etc/hldm.bin:system/etc/hldm.bin \
-    vendor/htc/oce/proprietary/etc/hltof.bin:system/etc/hltof.bin \
-    vendor/htc/oce/proprietary/etc/hltrd.bin:system/etc/hltrd.bin \
     vendor/htc/oce/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/htc/oce/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/htc/oce/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
@@ -102,7 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/oce/proprietary/lib64/vendor.qti.gnss@2.0.so:system/lib64/vendor.qti.gnss@2.0.so \
     vendor/htc/oce/proprietary/lib64/vendor.qti.gnss@2.1.so:system/lib64/vendor.qti.gnss@2.1.so \
     vendor/htc/oce/proprietary/lib64/vendor.qti.hardware.qteeconnector@1.0.so:system/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/htc/oce/proprietary/system/bin/htcnetd:system/system/bin/htcnetd \
+    vendor/htc/oce/proprietary/bin/htcnetd:system/bin/htcnetd \
     vendor/htc/oce/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/htc/oce/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/htc/oce/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
